@@ -1,15 +1,38 @@
 Rails.application.routes.draw do
-  resources :project_ingredients
-  resources :user_categories
+
+  namespace :api do
+
+    namespace :v1 do
+
+
+
+  root to: 'application#welcome'  
+
+
+  resources :users do
+  resources :products
   resources :ingredients
-  resources :ingredient_categories
-  resources :project_categories
-  resources :user_ingredients
-  resources :product_ingredients
-  resources :user_projects
+  resources :categories
+  end
+
+  resources :projects do
+    resources :ingredients
+    resources :categories
+    resources :users
+  end
+
+
+  resources :ingredients do
+  resources :projects
+  resources :categories
+  resources :users
+  end
+
   resources :categories
   resources :projects
-  resources :items
+  resources :ingredients
   resources :users
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+end
+end
+
 end

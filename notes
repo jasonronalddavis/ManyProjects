@@ -16,9 +16,20 @@ rails g resource ProjectCategory user_id:integer ingredient_id:integer project_i
 
 rails g resource IngredientCategory user_id:integer ingredient_id:integer project_id:integer category_id:integer --no-test-framework
 
+rails g controller users new create show edit update destroy index --no-test-framework --skip-collision-check
+
+rails g controller categories new create show edit update destroy index --no-test-framework --skip-collision-check
+
+rails g controller ingredients new create show edit update destroy index --no-test-framework --skip-collision-check
+
+
+rails g controller api/v1/application --no-test-framework
 
 
 @amy = User.new(name: "amy", password: "barnes")
 
 
 @comic_book = Project.new(description: "super hero comic_book project", name: "CoderMan")
+
+
+
