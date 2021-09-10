@@ -1,0 +1,20 @@
+2021-09-09 19:52:07.989 CDT [5932] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-09 19:52:08.027 CDT [5932] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-09 19:52:08.027 CDT [5932] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-09 19:52:08.042 CDT [5932] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-09 19:52:08.307 CDT [5933] LOG:  database system was interrupted; last known up at 2021-09-08 17:35:03 CDT
+2021-09-09 19:52:09.495 CDT [5933] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-09-09 19:52:09.520 CDT [5933] LOG:  redo starts at 0/1629AE0
+2021-09-09 19:52:09.520 CDT [5933] LOG:  invalid record length at 0/1629BC8: wanted 24, got 0
+2021-09-09 19:52:09.520 CDT [5933] LOG:  redo done at 0/1629B90
+2021-09-09 19:52:09.585 CDT [5932] LOG:  database system is ready to accept connections
+2021-09-10 01:30:29.577 CDT [4414] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-10 01:30:29.660 CDT [4414] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-10 01:30:29.660 CDT [4414] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-10 01:30:29.676 CDT [4414] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-10 01:30:30.152 CDT [4415] LOG:  database system was interrupted; last known up at 2021-09-09 20:22:34 CDT
+2021-09-10 01:30:32.411 CDT [4415] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-09-10 01:30:32.443 CDT [4415] LOG:  redo starts at 0/169BDD0
+2021-09-10 01:30:32.443 CDT [4415] LOG:  invalid record length at 0/169BEB8: wanted 24, got 0
+2021-09-10 01:30:32.443 CDT [4415] LOG:  redo done at 0/169BE80
+2021-09-10 01:30:32.497 CDT [4414] LOG:  database system is ready to accept connections

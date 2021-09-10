@@ -1,0 +1,24 @@
+rails g resource User name:string description:string password_digest:string  --no-test-framework
+
+rails g resource Item name:string price:float url:string description:string --no-test-framework
+
+rails g resource Project name:string description:string price_range:float --no-test-framework
+
+rails g resource Category name:string user_id:integer ingredient_id:integer project_id:integer --no-test-framework
+
+rails g resource UserProject  user_id:integer ingredient_id:integer project_id:integer category_id:integer  --no-test-framework
+
+rails g resource ProductIngredient user_id:integer ingredient_id:integer project_id:integer category_id:integer  --no-test-framework
+
+rails g resource UserIngredient user_id:integer ingredient_id:integer project_id:integer category_id:integer --no-test-framework
+
+rails g resource ProjectCategory user_id:integer ingredient_id:integer project_id:integer category_id:integer  --no-test-framework
+
+rails g resource IngredientCategory user_id:integer ingredient_id:integer project_id:integer category_id:integer --no-test-framework
+
+
+
+@amy = User.new(name: "amy", password: "barnes")
+
+
+@comic_book = Project.new(description: "super hero comic_book project", name: "CoderMan")
