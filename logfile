@@ -18,3 +18,13 @@
 2021-09-10 01:30:32.443 CDT [4415] LOG:  invalid record length at 0/169BEB8: wanted 24, got 0
 2021-09-10 01:30:32.443 CDT [4415] LOG:  redo done at 0/169BE80
 2021-09-10 01:30:32.497 CDT [4414] LOG:  database system is ready to accept connections
+2021-09-10 18:23:16.361 CDT [5067] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-10 18:23:16.416 CDT [5067] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-10 18:23:16.416 CDT [5067] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-10 18:23:16.417 CDT [5067] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-10 18:23:16.739 CDT [5071] LOG:  database system was interrupted; last known up at 2021-09-10 01:30:32 CDT
+2021-09-10 18:23:18.323 CDT [5071] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-09-10 18:23:18.359 CDT [5071] LOG:  redo starts at 0/169BF30
+2021-09-10 18:23:18.359 CDT [5071] LOG:  invalid record length at 0/169BF68: wanted 24, got 0
+2021-09-10 18:23:18.359 CDT [5071] LOG:  redo done at 0/169BF30
+2021-09-10 18:23:18.401 CDT [5067] LOG:  database system is ready to accept connections

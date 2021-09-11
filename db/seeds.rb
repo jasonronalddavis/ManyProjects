@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+
+
+
+amy = User.create(name: "amy", password: "barnes")
+
+comic_book = Project.create(description: "super hero comic_book project", name: "CoderMan")
+
+
+art = Category.create(name: "Art")
+
+amy.projects << comic_book

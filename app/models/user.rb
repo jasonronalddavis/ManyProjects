@@ -7,7 +7,6 @@ class User < ApplicationRecord
     has_many :user_categories
     has_many :user_ingredients
     has_many :projects, through: :user_projects
-    has_many :ingrediants, through: :project_ingrediants
     has_many :ingrediants, through: :user_ingediants
     has_many :categories, through: :user_categories
     

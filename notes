@@ -31,5 +31,14 @@ rails g controller api/v1/application --no-test-framework
 
 @comic_book = Project.new(description: "super hero comic_book project", name: "CoderMan")
 
+@Art = Category.new(name: "Art")
 
 
+
+git co -b item_model
+
+rails g resource Item type
+
+pg_ctl -D /usr/local/var/postgres_dev -l logfile start
+
+pg_ctl -D /usr/local/var/postgres_dev -l logfile stop
