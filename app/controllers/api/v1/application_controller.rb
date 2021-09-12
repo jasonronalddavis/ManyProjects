@@ -2,8 +2,8 @@ class Api::V1::ApplicationController < ApplicationController
 
     def welcome
       
-        user = User.last
+        category = Category.last
         categories = Category.all
-         render json: UserSerializer.new(user)
+         render json: CategorySerializer.new(category)
       end
     end

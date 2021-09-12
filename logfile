@@ -28,3 +28,63 @@
 2021-09-10 18:23:18.359 CDT [5071] LOG:  invalid record length at 0/169BF68: wanted 24, got 0
 2021-09-10 18:23:18.359 CDT [5071] LOG:  redo done at 0/169BF30
 2021-09-10 18:23:18.401 CDT [5067] LOG:  database system is ready to accept connections
+2021-09-11 17:12:13.823 CDT [4062] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-11 17:12:13.904 CDT [4062] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-11 17:12:13.904 CDT [4062] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-11 17:12:14.054 CDT [4062] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-11 17:12:14.669 CDT [4063] LOG:  database system was interrupted; last known up at 2021-09-11 02:15:55 CDT
+2021-09-11 17:12:16.897 CDT [4063] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-09-11 17:12:17.020 CDT [4063] LOG:  redo starts at 0/16C4208
+2021-09-11 17:12:17.020 CDT [4063] LOG:  invalid record length at 0/16C42F0: wanted 24, got 0
+2021-09-11 17:12:17.020 CDT [4063] LOG:  redo done at 0/16C42B8
+2021-09-11 17:12:17.235 CDT [4062] LOG:  database system is ready to accept connections
+2021-09-11 20:07:52.426 CDT [7708] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:07:52.426 CDT [7708] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:12:03.267 CDT [7708] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:12:03.267 CDT [7708] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:18:32.239 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:18:32.239 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:18:49.544 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:18:49.544 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:18:56.204 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:18:56.204 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:19:23.880 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:19:23.880 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:19:31.354 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:19:31.354 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:20:05.889 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:20:05.889 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:20:49.501 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:20:49.501 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:21:06.421 CDT [8081] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:21:06.421 CDT [8081] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:21:33.463 CDT [8273] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:21:33.463 CDT [8273] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:21:54.798 CDT [8273] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:21:54.798 CDT [8273] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:35:34.500 CDT [8584] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:35:34.500 CDT [8584] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:37:00.421 CDT [8584] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:37:00.421 CDT [8584] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:47:25.215 CDT [8913] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:47:25.215 CDT [8913] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 20:51:20.045 CDT [8913] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 20:51:20.045 CDT [8913] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:05:33.527 CDT [9381] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:05:33.527 CDT [9381] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:11:39.951 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:11:39.951 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:12:07.281 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:12:07.281 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:12:54.583 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:12:54.583 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:13:01.907 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:13:01.907 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:14:47.167 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:14:47.167 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:15:01.227 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:15:01.227 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:16:19.057 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:16:19.057 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
+2021-09-11 21:17:08.828 CDT [9503] ERROR:  column users.category_id does not exist at character 40
+2021-09-11 21:17:08.828 CDT [9503] STATEMENT:  SELECT "users"."id" FROM "users" WHERE "users"."category_id" = $1
