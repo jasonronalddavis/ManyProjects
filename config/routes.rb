@@ -28,11 +28,11 @@ Rails.application.routes.draw do
   resources :users
   end
 
-  resources :categories
+  resources :categories do
   resources :projects
   resources :ingredients
   resources :users
 end
 end
-
+end
 end
