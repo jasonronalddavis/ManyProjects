@@ -160,3 +160,13 @@
 2021-09-15 01:30:56.661 CDT [8211] STATEMENT:  SELECT "categories"."id" FROM "categories" WHERE "categories"."user_id" = $1
 2021-09-15 01:41:54.832 CDT [9581] ERROR:  column categories.user_id does not exist at character 50
 2021-09-15 01:41:54.832 CDT [9581] STATEMENT:  SELECT "categories"."id" FROM "categories" WHERE "categories"."user_id" = $1
+2021-09-15 16:53:07.179 CDT [3998] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-15 16:53:07.895 CDT [3998] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-15 16:53:07.895 CDT [3998] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-15 16:53:07.897 CDT [3998] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-15 16:53:08.509 CDT [4001] LOG:  database system was interrupted; last known up at 2021-09-15 00:00:08 CDT
+2021-09-15 16:53:09.619 CDT [4001] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-09-15 16:53:09.721 CDT [4001] LOG:  redo starts at 0/16DA238
+2021-09-15 16:53:09.721 CDT [4001] LOG:  invalid record length at 0/16DA320: wanted 24, got 0
+2021-09-15 16:53:09.721 CDT [4001] LOG:  redo done at 0/16DA2E8
+2021-09-15 16:53:09.790 CDT [3998] LOG:  database system is ready to accept connections

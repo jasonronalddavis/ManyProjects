@@ -15,7 +15,12 @@ User.destroy_all
 
 amy = User.create(name: "amy", password: "barnes")
 
-comic_book = Project.create(description: "super hero comic_book project", name: "CoderMan")
+animation = Project.find_by_name("CoderMan")
+
+art = Category.find_by_name("Art")
+
+animation.ingredients << macbook
+
 
 
 art = Category.create(name: "Art")

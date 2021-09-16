@@ -1,0 +1,1 @@
+macbook = Ingredient.create(url: "https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B08N5LLDSG/ref=sr_1_3?dchild=1&keywords=macbook+pro&qid=1631759803&sr=8-3", price: 1149.99, name: "macbook_pro")
