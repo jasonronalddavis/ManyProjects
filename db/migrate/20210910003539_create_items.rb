@@ -5,7 +5,6 @@ class CreateItems < ActiveRecord::Migration[6.1]
       t.float :price
       t.string :url
       t.string :description
-
       t.timestamps
     end
   end

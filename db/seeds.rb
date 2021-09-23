@@ -11,21 +11,30 @@
 Category.destroy_all
 
 
-User.destroy_all
+Ingredient.destroy_all
 
-amy = User.create(name: "amy", password: "barnes")
+Project.destroy_all
 
-animation = Project.find_by_name("CoderMan")
 
-art = Category.find_by_name("Art")
 
-animation.ingredients << macbook
+
+
+
+
+
+
+
+macbook = Ingredient.create(url: "https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B08N5LLDSG/ref=sr_1_3?dchild=1&keywords=macbook+pro&qid=1631759803&sr=8-3", price: 1149.99, name: "macbook_pro")
+
+
+macbook = Ingredient.create(url: "https://www.amazon.com/Wacom-Cintiq-Drawing-Tablet-DTK1660K0A/dp/B07L77GTTY/ref=sr_1_3?dchild=1&keywords=cintiq&qid=1631775052&sr=8-3", price: 649.95, name: "Wacom Cyntiq Tablet")
+
+
+
 
 
 
 art = Category.create(name: "Art")
-
-amy.projects << comic_book
 
 mechanical = Category.create(name: "Mechanics")
 
@@ -42,8 +51,9 @@ political = Category.create(name: "Social")
 political = Category.create(name: "Economic")
 
 
+animation = Project.create(name: "Animation", description: "Super hero animatiob project", total_price: 1234)
 
 
 
 
-
+animation.ingredients << macbook

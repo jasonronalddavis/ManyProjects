@@ -5,6 +5,8 @@ class Api::V1::CategoriesController < ApplicationController
     def index
         categories = Category.all
         render json: categories
+     
+
         
     end
 
@@ -18,7 +20,7 @@ class Api::V1::CategoriesController < ApplicationController
     private
     
         def category_params 
-        params.require(:category).permit( :id, :name, :user_id, :ingredient_id, :project_id)
+        params.require(:category).permit( :id, :name, :ingredient_id, :project_id)
         end
     end
 

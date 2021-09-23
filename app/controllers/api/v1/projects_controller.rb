@@ -20,7 +20,7 @@ class Api::V1::ProjectsController < ApplicationController
     
         def create 
             @project = Project.create(project_params)
-            if @project.save?
+            if @project.save 
                 render json:{project: @project }, status: :created
             else
                 render json: {errors: @project.errors.full_messages}, status: 
@@ -31,6 +31,6 @@ class Api::V1::ProjectsController < ApplicationController
     private
     
         def project_params 
-        params.require(:user).permit(:id, :name, :category_id, :ingredient_id, :user_id)
+        params.require(:project).permit(:id, :name, :description, :total_price)
         end
 end
