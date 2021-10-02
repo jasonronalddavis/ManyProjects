@@ -3,10 +3,8 @@ class Api::V1::IngredientsController < ApplicationController
 
 
     def index
-        ingredients = Ingredients.all
-        options = {
-        include: [:category]
-        }
+        ingredients = Ingredient.all
+       
        #render json: ingredients
         render json: ingredients
     end

@@ -15,6 +15,14 @@ class Api::V1::ProjectsController < ApplicationController
      end
      
 
+
+
+def destroy
+    project = Project.find_by_id(params[:id])
+    project.delete
+end
+
+
     
     
     
@@ -31,6 +39,6 @@ class Api::V1::ProjectsController < ApplicationController
     private
     
         def project_params 
-        params.require(:project).permit(:id, :name, :description, :total_price)
+        params.require(:project).permit(:id, :name, :description, :total_price, :ingredient_id)
         end
 end
