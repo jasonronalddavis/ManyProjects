@@ -11,6 +11,7 @@ class Api::V1::ProjectsController < ApplicationController
 
     def show
         project = Project.find_by_id(params[:id])
+        
         render json: project
      end
      
@@ -35,10 +36,24 @@ end
                 :unresponsive_entity
         end
     end
+
+
+
+    def edit
+        project = Project.find_by_id(params[:id]) 
+        render json: project
+
+    end
+
+    def update
+        project = Project.find_by_id(params[:id])
+        project.update(project_params)
+        render json: project
+    end
     
     private
     
         def project_params 
-        params.require(:project).permit(:id, :name, :description, :total_price, :ingredient_id)
+        params.require(:project).permit(:id, :name, :description, :category_id, :total_price, :ingredient_id)
         end
 end

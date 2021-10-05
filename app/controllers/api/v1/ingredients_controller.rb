@@ -4,8 +4,7 @@ class Api::V1::IngredientsController < ApplicationController
 
     def index
         ingredients = Ingredient.all
-       
-       #render json: ingredients
+        ingredient = Ingredient.find_by_id(params[:id])
         render json: ingredients
     end
     
@@ -32,6 +31,6 @@ class Api::V1::IngredientsController < ApplicationController
     private
     
         def ingredient_params 
-        params.require(:ingredient).permit(:id, :name, :category_id, :project_id)
+        params.require(:ingredient).permit(:id, :name, :description, :url, :price)
         end
     end
