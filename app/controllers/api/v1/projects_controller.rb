@@ -3,8 +3,7 @@ class Api::V1::ProjectsController < ApplicationController
 
 
     def index
-        projects = Project.all
-
+        projects = Project.all   
         render json: projects
     end
 
@@ -23,13 +22,16 @@ def destroy
     project.delete
 end
 
-
-    
     
     
         def create 
-            @project = Project.create(project_params)
-            if @project.save 
+          
+            @this = params[:category_ids]
+           @array = Category.all.find(@this)
+           @project = Project.create(project_params)
+           @array.each{|c| @project.categories << c}  
+          #  binding.pry   
+            if @project.save             
                 render json:{project: @project }, status: :created
             else
                 render json: {errors: @project.errors.full_messages}, status: 
@@ -54,6 +56,26 @@ end
     private
     
         def project_params 
-        params.require(:project).permit(:id, :name, :description, :category_id, :total_price, :ingredient_id)
+        params.require(:project).permit(:id, :name, :description, :total_price, :category_ids)
         end
 end
+
+
+
+# def params.select do  |m| 
+
+# puts :category_ids[m]
+
+# end
+
+
+
+
+
+# def params.select do  |m| 
+#   :category_id
+#    end
+
+
+
+

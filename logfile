@@ -416,3 +416,129 @@
 2021-10-04 19:20:42.952 CDT [14978] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2021-10-04 19:20:43.513 CDT [14981] LOG:  database system was shut down at 2021-10-04 19:20:36 CDT
 2021-10-04 19:20:43.545 CDT [14978] LOG:  database system is ready to accept connections
+2021-10-06 13:57:47.705 CDT [3811] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-06 13:57:47.768 CDT [3811] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-06 13:57:47.768 CDT [3811] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-06 13:57:47.784 CDT [3811] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-06 13:57:48.328 CDT [3812] LOG:  database system was interrupted; last known up at 2021-10-05 19:59:00 CDT
+2021-10-06 13:57:48.714 CDT [3812] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-06 13:57:48.735 CDT [3812] LOG:  redo starts at 0/17E9758
+2021-10-06 13:57:48.735 CDT [3812] LOG:  invalid record length at 0/17E9840: wanted 24, got 0
+2021-10-06 13:57:48.735 CDT [3812] LOG:  redo done at 0/17E9808
+2021-10-06 13:57:48.779 CDT [3811] LOG:  database system is ready to accept connections
+2021-10-06 16:53:32.159 CDT [3811] LOG:  received fast shutdown request
+2021-10-06 16:53:32.176 CDT [3811] LOG:  aborting any active transactions
+2021-10-06 16:53:32.203 CDT [3811] LOG:  background worker "logical replication launcher" (PID 3818) exited with exit code 1
+2021-10-06 16:53:32.203 CDT [3813] LOG:  shutting down
+2021-10-06 16:53:32.245 CDT [3811] LOG:  database system is shut down
+2021-10-06 16:53:37.720 CDT [5516] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-06 16:53:37.744 CDT [5516] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-06 16:53:37.744 CDT [5516] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-06 16:53:37.749 CDT [5516] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-06 16:53:38.024 CDT [5519] LOG:  database system was shut down at 2021-10-06 16:53:32 CDT
+2021-10-06 16:53:38.035 CDT [5516] LOG:  database system is ready to accept connections
+2021-10-06 16:55:48.179 CDT [5516] LOG:  received fast shutdown request
+2021-10-06 16:55:48.188 CDT [5516] LOG:  aborting any active transactions
+2021-10-06 16:55:48.188 CDT [5516] LOG:  background worker "logical replication launcher" (PID 5525) exited with exit code 1
+2021-10-06 16:55:48.189 CDT [5520] LOG:  shutting down
+2021-10-06 16:55:48.195 CDT [5516] LOG:  database system is shut down
+2021-10-06 16:55:53.355 CDT [6092] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-06 16:55:53.357 CDT [6092] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-06 16:55:53.357 CDT [6092] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-06 16:55:53.358 CDT [6092] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-06 16:55:53.362 CDT [6093] LOG:  database system was shut down at 2021-10-06 16:55:48 CDT
+2021-10-06 16:55:53.365 CDT [6092] LOG:  database system is ready to accept connections
+2021-10-06 17:03:36.408 CDT [6092] LOG:  received fast shutdown request
+2021-10-06 17:03:36.469 CDT [6092] LOG:  aborting any active transactions
+2021-10-06 17:03:36.493 CDT [6092] LOG:  background worker "logical replication launcher" (PID 6099) exited with exit code 1
+2021-10-06 17:03:36.493 CDT [6094] LOG:  shutting down
+2021-10-06 17:03:36.544 CDT [6092] LOG:  database system is shut down
+2021-10-06 17:03:41.942 CDT [7203] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-06 17:03:41.945 CDT [7203] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-06 17:03:41.945 CDT [7203] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-06 17:03:41.964 CDT [7203] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-06 17:03:41.990 CDT [7204] LOG:  database system was shut down at 2021-10-06 17:03:36 CDT
+2021-10-06 17:03:42.042 CDT [7203] LOG:  database system is ready to accept connections
+2021-10-06 23:33:23.681 CDT [3709] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-06 23:33:23.763 CDT [3709] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-06 23:33:23.763 CDT [3709] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-06 23:33:23.777 CDT [3709] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-06 23:33:24.565 CDT [3712] LOG:  database system was interrupted; last known up at 2021-10-06 20:48:43 CDT
+2021-10-06 23:33:25.675 CDT [3712] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-06 23:33:25.734 CDT [3712] LOG:  redo starts at 0/17EE778
+2021-10-06 23:33:25.734 CDT [3712] LOG:  invalid record length at 0/17EE860: wanted 24, got 0
+2021-10-06 23:33:25.734 CDT [3712] LOG:  redo done at 0/17EE828
+2021-10-06 23:33:25.812 CDT [3709] LOG:  database system is ready to accept connections
+2021-10-07 05:10:41.483 CDT [3709] LOG:  received fast shutdown request
+2021-10-07 05:10:41.517 CDT [3709] LOG:  aborting any active transactions
+2021-10-07 05:10:41.532 CDT [3709] LOG:  background worker "logical replication launcher" (PID 3718) exited with exit code 1
+2021-10-07 05:10:41.541 CDT [10055] FATAL:  terminating connection due to administrator command
+2021-10-07 05:10:41.543 CDT [3713] LOG:  shutting down
+2021-10-07 05:10:41.672 CDT [3709] LOG:  database system is shut down
+2021-10-07 05:10:46.692 CDT [13343] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-07 05:10:46.733 CDT [13343] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-07 05:10:46.733 CDT [13343] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-07 05:10:46.747 CDT [13343] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-07 05:10:47.042 CDT [13346] LOG:  database system was shut down at 2021-10-07 05:10:41 CDT
+2021-10-07 05:10:47.075 CDT [13343] LOG:  database system is ready to accept connections
+2021-10-07 14:08:14.118 CDT [3715] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-07 14:08:14.250 CDT [3715] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-07 14:08:14.250 CDT [3715] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-07 14:08:14.280 CDT [3715] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-07 14:08:14.392 CDT [3718] LOG:  database system was interrupted; last known up at 2021-10-07 06:28:50 CDT
+2021-10-07 14:08:14.602 CDT [3718] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-07 14:08:14.676 CDT [3718] LOG:  redo starts at 0/17F5D80
+2021-10-07 14:08:14.677 CDT [3718] LOG:  invalid record length at 0/17F5E68: wanted 24, got 0
+2021-10-07 14:08:14.677 CDT [3718] LOG:  redo done at 0/17F5E30
+2021-10-07 14:08:14.777 CDT [3715] LOG:  database system is ready to accept connections
+2021-10-07 15:51:13.000 CDT [3715] LOG:  received fast shutdown request
+2021-10-07 15:51:13.030 CDT [3715] LOG:  aborting any active transactions
+2021-10-07 15:51:13.079 CDT [3715] LOG:  background worker "logical replication launcher" (PID 3724) exited with exit code 1
+2021-10-07 15:51:13.079 CDT [3719] LOG:  shutting down
+2021-10-07 15:51:13.173 CDT [3715] LOG:  database system is shut down
+2021-10-07 15:51:17.783 CDT [7280] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-07 15:51:17.785 CDT [7280] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-07 15:51:17.785 CDT [7280] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-07 15:51:17.786 CDT [7280] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-07 15:51:18.134 CDT [7283] LOG:  database system was shut down at 2021-10-07 15:51:13 CDT
+2021-10-07 15:51:18.144 CDT [7280] LOG:  database system is ready to accept connections
+2021-10-08 15:04:55.758 CDT [4020] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-08 15:04:55.869 CDT [4020] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-08 15:04:55.869 CDT [4020] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-08 15:04:55.870 CDT [4020] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-08 15:04:56.434 CDT [4021] LOG:  database system was interrupted; last known up at 2021-10-07 20:57:15 CDT
+2021-10-08 15:04:57.097 CDT [4021] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-08 15:04:57.152 CDT [4021] LOG:  redo starts at 0/17FFB20
+2021-10-08 15:04:57.152 CDT [4021] LOG:  invalid record length at 0/17FFC08: wanted 24, got 0
+2021-10-08 15:04:57.152 CDT [4021] LOG:  redo done at 0/17FFBD0
+2021-10-08 15:04:57.234 CDT [4020] LOG:  database system is ready to accept connections
+2021-10-09 19:08:04.547 CDT [4448] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-09 19:08:05.044 CDT [4448] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-09 19:08:05.044 CDT [4448] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-09 19:08:05.065 CDT [4448] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-09 19:08:05.992 CDT [4451] LOG:  database system was interrupted; last known up at 2021-10-08 20:36:27 CDT
+2021-10-09 19:08:07.930 CDT [4451] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-09 19:08:08.133 CDT [4451] LOG:  redo starts at 0/18026C8
+2021-10-09 19:08:08.133 CDT [4451] LOG:  invalid record length at 0/18027B0: wanted 24, got 0
+2021-10-09 19:08:08.133 CDT [4451] LOG:  redo done at 0/1802778
+2021-10-09 19:08:08.343 CDT [4448] LOG:  database system is ready to accept connections
+2021-10-10 12:29:32.724 CDT [4061] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-10 12:29:32.887 CDT [4061] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-10 12:29:32.887 CDT [4061] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-10 12:29:32.930 CDT [4061] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-10 12:29:33.753 CDT [4064] LOG:  database system was interrupted; last known up at 2021-10-09 20:58:08 CDT
+2021-10-10 12:29:34.759 CDT [4064] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-10 12:29:34.910 CDT [4064] LOG:  redo starts at 0/1804310
+2021-10-10 12:29:34.910 CDT [4064] LOG:  invalid record length at 0/18043F8: wanted 24, got 0
+2021-10-10 12:29:34.910 CDT [4064] LOG:  redo done at 0/18043C0
+2021-10-10 12:29:35.019 CDT [4061] LOG:  database system is ready to accept connections
+2021-10-10 20:18:27.272 CDT [4495] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-10 20:18:27.398 CDT [4495] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-10 20:18:27.398 CDT [4495] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-10 20:18:27.473 CDT [4495] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-10 20:18:28.070 CDT [4496] LOG:  database system was interrupted; last known up at 2021-10-10 12:29:35 CDT
+2021-10-10 20:18:29.549 CDT [4496] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-10-10 20:18:29.648 CDT [4496] LOG:  redo starts at 0/1804470
+2021-10-10 20:18:29.648 CDT [4496] LOG:  invalid record length at 0/18044A8: wanted 24, got 0
+2021-10-10 20:18:29.648 CDT [4496] LOG:  redo done at 0/1804470
+2021-10-10 20:18:29.781 CDT [4495] LOG:  database system is ready to accept connections
