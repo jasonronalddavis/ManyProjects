@@ -10,11 +10,14 @@ class Api::V1::ProjectsController < ApplicationController
 
     def show
         project = Project.find_by_id(params[:id])
+       project_categories = project.categories
+       project_ingredients = project.ingredients
+        render json: { project: project, project_categories: project_categories, project_ingredients: project_ingredients}
+       # render json: project
         
-        render json: project
+       # render json: project_categories
      end
-     
-
+    
 
 
 def destroy
@@ -24,13 +27,15 @@ end
 
     
     
-        def create 
-          
-            @this = params[:category_ids]
-           @array = Category.all.find(@this)
+        def create        
+            @categories = params[:category_ids]
+            @ingredients = params[:ingredient_ids]
+            @i_array = Ingredient.all.find(@ingredients)
+           @c_array = Category.all.find(@categories)
            @project = Project.create(project_params)
-           @array.each{|c| @project.categories << c}  
-          #  binding.pry   
+           @c_array.each{|c| @project.categories << c}  
+           @i_array.each{|i| @project.ingredients << i} 
+           #binding.pry   
             if @project.save             
                 render json:{project: @project }, status: :created
             else
@@ -48,6 +53,7 @@ end
     end
 
     def update
+      #  binding.pry 
         project = Project.find_by_id(params[:id])
         project.update(project_params)
         render json: project
@@ -56,7 +62,7 @@ end
     private
     
         def project_params 
-        params.require(:project).permit(:id, :name, :description, :total_price, :category_ids)
+        params.require(:project).permit(:id, :name, :description,  :total_price, :ingredient_ids, :category_ids)
         end
 end
 
