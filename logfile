@@ -664,3 +664,42 @@
 2021-10-28 01:38:33.914 CDT [4281] LOG:  invalid record length at 0/181FD78: wanted 24, got 0
 2021-10-28 01:38:33.914 CDT [4281] LOG:  redo done at 0/181FD40
 2021-10-28 01:38:34.001 CDT [4278] LOG:  database system is ready to accept connections
+2021-11-03 20:13:06.155 CDT [3984] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-03 20:13:06.300 CDT [3984] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-03 20:13:06.300 CDT [3984] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-03 20:13:06.301 CDT [3984] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-03 20:13:06.720 CDT [3988] LOG:  database system was interrupted; last known up at 2021-10-28 04:23:03 CDT
+2021-11-03 20:13:08.104 CDT [3988] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-03 20:13:08.199 CDT [3988] LOG:  redo starts at 0/18242E8
+2021-11-03 20:13:08.199 CDT [3988] LOG:  invalid record length at 0/18243D0: wanted 24, got 0
+2021-11-03 20:13:08.199 CDT [3988] LOG:  redo done at 0/1824398
+2021-11-03 20:13:08.308 CDT [3984] LOG:  database system is ready to accept connections
+2021-11-09 15:57:26.716 CST [33458] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-09 15:57:26.886 CST [33458] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-09 15:57:26.886 CST [33458] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-09 15:57:26.973 CST [33458] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-09 15:57:27.628 CST [33459] LOG:  database system was interrupted; last known up at 2021-11-03 20:13:08 CDT
+2021-11-09 15:57:34.460 CST [33459] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-09 15:57:34.729 CST [33459] LOG:  redo starts at 0/1824448
+2021-11-09 15:57:34.729 CST [33459] LOG:  invalid record length at 0/1824480: wanted 24, got 0
+2021-11-09 15:57:34.729 CST [33459] LOG:  redo done at 0/1824448
+2021-11-09 15:57:34.784 CST [33458] LOG:  database system is ready to accept connections
+2021-11-09 15:58:30.638 CST [33491] FATAL:  lock file "postmaster.pid" already exists
+2021-11-09 15:58:30.638 CST [33491] HINT:  Is another postmaster (PID 33458) running in data directory "/usr/local/var/postgres_dev"?
+2021-11-09 16:00:25.724 CST [34029] FATAL:  lock file "postmaster.pid" already exists
+2021-11-09 16:00:25.724 CST [34029] HINT:  Is another postmaster (PID 33458) running in data directory "/usr/local/var/postgres_dev"?
+2021-11-09 16:00:50.674 CST [34042] FATAL:  lock file "postmaster.pid" already exists
+2021-11-09 16:00:50.674 CST [34042] HINT:  Is another postmaster (PID 33458) running in data directory "/usr/local/var/postgres_dev"?
+2021-11-09 16:03:30.429 CST [34104] FATAL:  lock file "postmaster.pid" already exists
+2021-11-09 16:03:30.429 CST [34104] HINT:  Is another postmaster (PID 33458) running in data directory "/usr/local/var/postgres_dev"?
+2021-11-09 16:05:04.140 CST [33458] LOG:  received fast shutdown request
+2021-11-09 16:05:04.176 CST [33458] LOG:  aborting any active transactions
+2021-11-09 16:05:04.218 CST [33458] LOG:  background worker "logical replication launcher" (PID 33469) exited with exit code 1
+2021-11-09 16:05:04.218 CST [33464] LOG:  shutting down
+2021-11-09 16:05:04.346 CST [33458] LOG:  database system is shut down
+2021-11-09 16:05:12.538 CST [34131] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-09 16:05:12.598 CST [34131] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-09 16:05:12.598 CST [34131] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-09 16:05:12.599 CST [34131] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-09 16:05:12.942 CST [34134] LOG:  database system was shut down at 2021-11-09 16:05:04 CST
+2021-11-09 16:05:12.946 CST [34131] LOG:  database system is ready to accept connections
