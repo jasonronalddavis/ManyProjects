@@ -3,16 +3,22 @@ class Api::V1::IngredientsController < ApplicationController
 
 
     def index
-        ingredients = Ingredient.all
-        render json: ingredients
+        @ingredients = Ingredient.all
+       render json: IngredientSerializer.new(@ingredients)
+
     end
     
     
 
     def show
         ingredient = Ingredient.find_by_id(params[:id])
-        render json:  ingredient
+  
+        ingredient_categories = ingredient.categories
+    ingredient_projects = ingredient.projects
+         render json: { ingredient: ingredient, ingredient_categories: ingredient_categories, ingredient_projects: ingredient_projects}
      end
+
+
      
      def destroy
      ingredient = Ingredient.find_by_id(params[:id])
@@ -35,9 +41,29 @@ class Api::V1::IngredientsController < ApplicationController
          end
     end
     
+
+
+
+
+    def edit
+    ingredient = Ingredient.find_by_id(params[:id]) 
+        render json: ingredient
+    end
+
+
+
+    def update
+        ingredient = Ingredient.find_by_id(params[:id])
+        ingredient.update(ingredient_params)
+        render json: ingredient
+    end
+    
+
+
+
     private
     
         def ingredient_params 
-        params.require(:ingredient).permit(:id, :name, :description, :image_url, :url, :price, :category_ids)
+        params.require(:ingredient).permit(:id, :name, :description, :image_url, :url, :price, :category_ids, :project_ids)
         end
     end

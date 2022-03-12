@@ -7,9 +7,12 @@ Rails.application.routes.draw do
 
 
   root to: 'application#welcome'  
+ post "projects/update", to: "projects#update"
+ 
 
 
-  resources :projects do
+  resources :projects do 
+
     
     resources :ingredients
     resources :categories

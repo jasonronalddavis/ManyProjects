@@ -3,10 +3,8 @@ class Api::V1::CategoriesController < ApplicationController
 
 
     def index
-        categories = Category.all
-        render json: categories
-     
-
+        @categories = Category.all
+        render json: CategorySerializer.new(@categories)
         
     end
 

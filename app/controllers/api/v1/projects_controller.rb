@@ -3,8 +3,8 @@ class Api::V1::ProjectsController < ApplicationController
 
 
     def index
-        projects = Project.all   
-        render json: projects
+        @projects = Project.all   
+        render json: ProjectSerializer.new(@projects)
     end
 
 
@@ -49,20 +49,77 @@ end
     def edit
         project = Project.find_by_id(params[:id]) 
         render json: project
-
     end
 
     def update
-      #  binding.pry 
+        ingredients = Ingredient.all
+        categories = Category.all
         project = Project.find_by_id(params[:id])
-        project.update(project_params)
+        removeIng = params[:removeIng] != "" ? params[:removeIng] : []
+        addIng =  params[:addIng] != "" ? params[:addIng] : []
+        removeCat = params[:removeCat] != "" ? params[:removeCat] : []
+        addCat =  params[:addCat] != "" ? params[:addCat] : []
+       name = params[:name] != "" ? project.name = params[:name] : project.name
+       description = params[:description] != "" ? project.description = params[:description] : project.description
+       total_price = params[:total_price] != "" ? project.total_price = params[:total_price] : project.total_price
+       project.update({name: name, description: description, total_price: total_price})
+        removeIngredients(project,removeIng,ingredients)  
+        addIngredients(project,addIng,ingredients) 
+        removeCategories(project,removeCat,categories)
+        addCategories(project,addCat,categories)
         render json: project
     end
     
     private
-    
+
+def removeIngredients(project,removeIng,ingredients)   
+    project.ingredients.select{|pi| 
+    ingredients.all.each{|i| 
+    removeIng.each{|ri| 
+     if  pi.name == ri
+        pi.delete  
+    end   
+             }
+            }
+        }
+end
+  
+def addIngredients(project,addIng,ingredients)
+    ingredients.all.each{|i| 
+    addIng.each{|ai| 
+    if i.name == ai
+        project.ingredients << i
+         end
+        }
+            }
+     end
+
+     def removeCategories(project,removeCat,categories)   
+        project.categories.select{|pc| 
+        categories.all.each{|i| 
+        removeCat.each{|rc| 
+         if  pc.name == rc
+            pc.delete  
+        end   
+                 }
+                }
+            }
+    end
+
+    def addCategories(project,addCat,categories)
+        categories.all.each{|c| 
+        addCat.each{|ac| 
+        if c.name == ac
+            project.categories << c
+             end
+            }
+                }
+         end
+
+
+
         def project_params 
-        params.require(:project).permit(:id, :name, :description,  :total_price, :ingredient_ids, :category_ids)
+        params.require(:project).permit(:id, :name, :description,  :total_price)
         end
 end
 

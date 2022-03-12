@@ -1,7 +1,6 @@
 class Category < ApplicationRecord
     
    
-  
     has_many :projects
     has_many :ingredients
     has_many :project_categories

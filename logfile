@@ -703,3 +703,252 @@
 2021-11-09 16:05:12.599 CST [34131] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2021-11-09 16:05:12.942 CST [34134] LOG:  database system was shut down at 2021-11-09 16:05:04 CST
 2021-11-09 16:05:12.946 CST [34131] LOG:  database system is ready to accept connections
+2021-11-09 23:05:24.425 CST [4283] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-09 23:05:24.595 CST [4283] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-09 23:05:24.595 CST [4283] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-09 23:05:24.725 CST [4283] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-09 23:05:25.886 CST [4286] LOG:  database system was interrupted; last known up at 2021-11-09 16:10:13 CST
+2021-11-09 23:05:29.075 CST [4286] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-09 23:05:29.149 CST [4286] LOG:  redo starts at 0/18245E0
+2021-11-09 23:05:29.149 CST [4286] LOG:  invalid record length at 0/18246C8: wanted 24, got 0
+2021-11-09 23:05:29.149 CST [4286] LOG:  redo done at 0/1824690
+2021-11-09 23:05:29.259 CST [4283] LOG:  database system is ready to accept connections
+2021-11-10 19:07:12.566 CST [4479] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-10 19:07:13.001 CST [4479] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-10 19:07:13.001 CST [4479] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-10 19:07:13.327 CST [4479] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-10 19:07:16.185 CST [4485] LOG:  database system was interrupted; last known up at 2021-11-10 05:15:16 CST
+2021-11-10 19:07:22.921 CST [4485] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-10 19:07:23.017 CST [4485] LOG:  redo starts at 0/182A5C0
+2021-11-10 19:07:23.017 CST [4485] LOG:  invalid record length at 0/182A6A8: wanted 24, got 0
+2021-11-10 19:07:23.017 CST [4485] LOG:  redo done at 0/182A670
+2021-11-10 19:07:23.091 CST [4479] LOG:  database system is ready to accept connections
+2021-11-11 01:25:05.172 CST [4264] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-11 01:25:05.278 CST [4264] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-11 01:25:05.278 CST [4264] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-11 01:25:05.300 CST [4264] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-11 01:25:06.301 CST [4265] LOG:  database system was interrupted; last known up at 2021-11-10 21:27:24 CST
+2021-11-11 01:25:07.446 CST [4265] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-11 01:25:07.512 CST [4265] LOG:  redo starts at 0/183B640
+2021-11-11 01:25:07.512 CST [4265] LOG:  invalid record length at 0/183B728: wanted 24, got 0
+2021-11-11 01:25:07.512 CST [4265] LOG:  redo done at 0/183B6F0
+2021-11-11 01:25:07.555 CST [4264] LOG:  database system is ready to accept connections
+2021-11-11 16:01:39.420 CST [4330] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-11 16:01:39.640 CST [4330] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-11 16:01:39.640 CST [4330] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-11 16:01:39.789 CST [4330] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-11 16:01:40.803 CST [4331] LOG:  database system was interrupted; last known up at 2021-11-11 05:58:27 CST
+2021-11-11 16:01:42.823 CST [4331] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-11 16:01:42.857 CST [4331] LOG:  redo starts at 0/183CB88
+2021-11-11 16:01:42.857 CST [4331] LOG:  invalid record length at 0/183CC70: wanted 24, got 0
+2021-11-11 16:01:42.857 CST [4331] LOG:  redo done at 0/183CC38
+2021-11-11 16:01:42.911 CST [4330] LOG:  database system is ready to accept connections
+2021-11-12 00:38:14.970 CST [4329] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-12 00:38:15.305 CST [4329] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-12 00:38:15.305 CST [4329] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-12 00:38:15.548 CST [4329] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-12 00:38:18.881 CST [4336] LOG:  database system was interrupted; last known up at 2021-11-11 16:01:42 CST
+2021-11-12 00:38:23.118 CST [4336] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-12 00:38:23.514 CST [4336] LOG:  redo starts at 0/183CCE8
+2021-11-12 00:38:23.514 CST [4336] LOG:  invalid record length at 0/183CD20: wanted 24, got 0
+2021-11-12 00:38:23.514 CST [4336] LOG:  redo done at 0/183CCE8
+2021-11-12 00:38:24.426 CST [4329] LOG:  database system is ready to accept connections
+2021-11-19 18:25:39.458 CST [6369] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-19 18:25:40.301 CST [6369] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-19 18:25:40.301 CST [6369] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-19 18:25:41.030 CST [6369] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-19 18:25:57.673 CST [6381] LOG:  database system was interrupted; last known up at 2021-11-12 05:21:26 CST
+2021-11-19 18:26:12.384 CST [6381] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-11-19 18:26:12.826 CST [6381] LOG:  redo starts at 0/185C8E0
+2021-11-19 18:26:12.926 CST [6381] LOG:  invalid record length at 0/185C9C8: wanted 24, got 0
+2021-11-19 18:26:12.926 CST [6381] LOG:  redo done at 0/185C990
+2021-11-19 18:26:15.525 CST [6369] LOG:  database system is ready to accept connections
+2022-03-04 01:41:00.955 CST [49329] FATAL:  lock file "postmaster.pid" already exists
+2022-03-04 01:41:00.955 CST [49329] HINT:  Is another postmaster (PID 5726) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-04 01:51:43.314 CST [49496] FATAL:  lock file "postmaster.pid" already exists
+2022-03-04 01:51:43.314 CST [49496] HINT:  Is another postmaster (PID 5726) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-04 02:54:06.355 CST [4190] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-04 02:54:15.609 CST [4190] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-04 02:54:15.609 CST [4190] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-04 02:54:16.107 CST [4190] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-04 02:54:40.660 CST [4216] LOG:  database system was shut down at 2022-03-04 02:01:23 CST
+2022-03-04 02:54:46.881 CST [4190] LOG:  database system is ready to accept connections
+2022-03-04 02:55:37.820 CST [4240] FATAL:  lock file "postmaster.pid" already exists
+2022-03-04 02:55:37.820 CST [4240] HINT:  Is another postmaster (PID 4190) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-04 03:05:00.701 CST [4223] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-04 03:10:03.462 CST [4190] LOG:  received smart shutdown request
+2022-03-04 03:10:03.830 CST [4190] LOG:  background worker "logical replication launcher" (PID 4225) exited with exit code 1
+2022-03-04 03:10:03.830 CST [4220] LOG:  shutting down
+2022-03-04 03:10:04.093 CST [4190] LOG:  database system is shut down
+2022-03-04 03:36:31.442 CST [2938] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-04 03:36:33.116 CST [2938] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-04 03:36:33.116 CST [2938] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-04 03:36:34.214 CST [2938] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-04 03:36:46.418 CST [2952] LOG:  database system was shut down at 2022-03-04 03:10:04 CST
+2022-03-04 03:36:50.248 CST [2938] LOG:  database system is ready to accept connections
+2022-03-05 00:33:53.723 CST [2392] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-05 00:33:54.328 CST [2392] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-05 00:33:54.328 CST [2392] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-05 00:33:54.653 CST [2392] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-05 00:34:07.137 CST [2403] LOG:  database system was interrupted; last known up at 2022-03-04 03:41:53 CST
+2022-03-05 00:34:29.486 CST [2403] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-05 00:34:30.187 CST [2403] LOG:  redo starts at 0/100AEE38
+2022-03-05 00:34:30.187 CST [2403] LOG:  invalid record length at 0/100AEF20: wanted 24, got 0
+2022-03-05 00:34:30.187 CST [2403] LOG:  redo done at 0/100AEEE8
+2022-03-05 00:34:31.917 CST [2392] LOG:  database system is ready to accept connections
+2022-03-05 01:45:23.894 CST [2392] LOG:  received smart shutdown request
+2022-03-05 01:45:24.391 CST [2392] LOG:  background worker "logical replication launcher" (PID 2419) exited with exit code 1
+2022-03-05 01:45:24.391 CST [2414] LOG:  shutting down
+2022-03-05 01:45:25.710 CST [2392] LOG:  database system is shut down
+2022-03-05 23:31:49.587 CST [2879] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-05 23:31:50.789 CST [2879] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-05 23:31:50.789 CST [2879] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-05 23:31:51.035 CST [2879] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-05 23:31:56.458 CST [2886] LOG:  database system was shut down at 2022-03-05 01:45:25 CST
+2022-03-05 23:31:57.584 CST [2879] LOG:  database system is ready to accept connections
+2022-03-06 15:11:13.361 CST [3499] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-06 15:11:15.071 CST [3499] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-06 15:11:15.072 CST [3499] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-06 15:11:15.937 CST [3499] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-06 15:11:36.118 CST [3533] LOG:  database system was interrupted; last known up at 2022-03-05 23:36:57 CST
+2022-03-06 15:12:12.419 CST [3533] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-06 15:12:13.462 CST [3533] LOG:  redo starts at 0/100AF080
+2022-03-06 15:12:13.462 CST [3533] LOG:  invalid record length at 0/100AF168: wanted 24, got 0
+2022-03-06 15:12:13.462 CST [3533] LOG:  redo done at 0/100AF130
+2022-03-06 15:12:14.793 CST [3499] LOG:  database system is ready to accept connections
+2022-03-06 15:13:34.493 CST [3581] FATAL:  lock file "postmaster.pid" already exists
+2022-03-06 15:13:34.493 CST [3581] HINT:  Is another postmaster (PID 3499) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-06 15:13:55.184 CST [3499] LOG:  received fast shutdown request
+2022-03-06 15:13:55.243 CST [3499] LOG:  aborting any active transactions
+2022-03-06 15:13:55.540 CST [3499] LOG:  background worker "logical replication launcher" (PID 3557) exited with exit code 1
+2022-03-06 15:13:55.540 CST [3552] LOG:  shutting down
+2022-03-06 15:13:57.298 CST [3499] LOG:  database system is shut down
+2022-03-06 15:14:02.376 CST [3602] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-06 15:14:02.688 CST [3602] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-06 15:14:02.688 CST [3602] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-06 15:14:02.855 CST [3602] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-06 15:14:09.443 CST [3610] LOG:  database system was shut down at 2022-03-06 15:13:56 CST
+2022-03-06 15:14:09.623 CST [3602] LOG:  database system is ready to accept connections
+2022-03-06 15:54:35.390 CST [3614] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-06 15:55:50.454 CST [3614] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-06 15:58:08.836 CST [3614] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-07 00:28:43.342 CST [4958] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-07 00:28:44.529 CST [4958] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-07 00:28:44.529 CST [4958] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-07 00:28:44.971 CST [4958] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-07 00:29:03.024 CST [4979] LOG:  database system was interrupted; last known up at 2022-03-06 15:19:14 CST
+2022-03-07 00:29:56.191 CST [4979] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-07 00:29:57.377 CST [4979] LOG:  redo starts at 0/100AF2C8
+2022-03-07 00:29:57.716 CST [4979] LOG:  invalid record length at 0/100AF3B0: wanted 24, got 0
+2022-03-07 00:29:57.716 CST [4979] LOG:  redo done at 0/100AF378
+2022-03-07 00:30:00.118 CST [4958] LOG:  database system is ready to accept connections
+2022-03-07 00:30:23.974 CST [5018] FATAL:  lock file "postmaster.pid" already exists
+2022-03-07 00:30:23.974 CST [5018] HINT:  Is another postmaster (PID 4958) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-07 00:30:31.593 CST [4958] LOG:  received fast shutdown request
+2022-03-07 00:30:31.885 CST [4958] LOG:  aborting any active transactions
+2022-03-07 00:30:32.431 CST [4958] LOG:  background worker "logical replication launcher" (PID 5002) exited with exit code 1
+2022-03-07 00:30:32.431 CST [4997] LOG:  shutting down
+2022-03-07 00:30:33.494 CST [4958] LOG:  database system is shut down
+2022-03-07 00:30:43.014 CST [5035] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-07 00:30:43.017 CST [5035] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-07 00:30:43.017 CST [5035] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-07 00:30:44.196 CST [5035] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-07 00:30:48.760 CST [5041] LOG:  database system was shut down at 2022-03-07 00:30:33 CST
+2022-03-07 00:30:48.975 CST [5035] LOG:  database system is ready to accept connections
+2022-03-07 10:40:34.306 CST [5045] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-07 10:56:34.199 CST [5045] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-07 20:20:50.940 CST [5035] LOG:  received smart shutdown request
+2022-03-07 20:20:51.189 CST [5035] LOG:  background worker "logical replication launcher" (PID 5047) exited with exit code 1
+2022-03-07 20:20:51.189 CST [5042] LOG:  shutting down
+2022-03-07 20:20:51.600 CST [5035] LOG:  database system is shut down
+2022-03-07 22:59:12.482 CST [5309] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-07 22:59:12.634 CST [5309] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-07 22:59:12.634 CST [5309] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-07 22:59:12.707 CST [5309] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-07 22:59:15.770 CST [5314] LOG:  database system was shut down at 2022-03-07 20:20:51 CST
+2022-03-07 22:59:16.648 CST [5309] LOG:  database system is ready to accept connections
+2022-03-08 08:21:55.754 CST [4530] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-08 08:21:56.043 CST [4530] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-08 08:21:56.043 CST [4530] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-08 08:21:56.299 CST [4530] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-08 08:21:58.834 CST [4535] LOG:  database system was interrupted; last known up at 2022-03-07 23:04:16 CST
+2022-03-08 08:22:04.225 CST [4535] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-08 08:22:04.721 CST [4535] LOG:  redo starts at 0/100AF6A8
+2022-03-08 08:22:04.721 CST [4535] LOG:  invalid record length at 0/100AF790: wanted 24, got 0
+2022-03-08 08:22:04.721 CST [4535] LOG:  redo done at 0/100AF758
+2022-03-08 08:22:06.197 CST [4530] LOG:  database system is ready to accept connections
+2022-03-08 21:22:50.348 CST [4598] FATAL:  lock file "postmaster.pid" already exists
+2022-03-08 21:22:50.348 CST [4598] HINT:  Is another postmaster (PID 4530) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-08 21:30:26.927 CST [4685] FATAL:  lock file "postmaster.pid" already exists
+2022-03-08 21:30:26.927 CST [4685] HINT:  Is another postmaster (PID 4530) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-08 21:31:09.539 CST [4721] FATAL:  lock file "postmaster.pid" already exists
+2022-03-08 21:31:09.539 CST [4721] HINT:  Is another postmaster (PID 4530) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-08 21:41:07.243 CST [5345] FATAL:  lock file "postmaster.pid" already exists
+2022-03-08 21:41:07.243 CST [5345] HINT:  Is another postmaster (PID 4530) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-08 21:51:14.450 CST [5874] FATAL:  lock file "postmaster.pid" already exists
+2022-03-08 21:51:14.450 CST [5874] HINT:  Is another postmaster (PID 4530) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-08 22:09:43.628 CST [9637] FATAL:  lock file "postmaster.pid" already exists
+2022-03-08 22:09:43.628 CST [9637] HINT:  Is another postmaster (PID 4530) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-08 22:49:40.004 CST [4668] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-08 22:49:40.787 CST [4668] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-08 22:49:40.787 CST [4668] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-08 22:49:41.400 CST [4668] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-08 22:49:47.760 CST [4700] LOG:  database system was interrupted; last known up at 2022-03-08 08:22:06 CST
+2022-03-08 22:49:57.570 CST [4700] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-08 22:49:58.116 CST [4700] LOG:  redo starts at 0/100AF808
+2022-03-08 22:49:58.116 CST [4700] LOG:  invalid record length at 0/100AF840: wanted 24, got 0
+2022-03-08 22:49:58.116 CST [4700] LOG:  redo done at 0/100AF808
+2022-03-08 22:49:59.264 CST [4668] LOG:  database system is ready to accept connections
+2022-03-08 22:59:25.155 CST [4708] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-08 23:05:53.527 CST [4708] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-09 04:55:33.068 CST [10135] ERROR:  column projects.ingredient_id does not exist at character 46
+2022-03-09 04:55:33.068 CST [10135] STATEMENT:  SELECT "projects"."id" FROM "projects" WHERE "projects"."ingredient_id" = $1
+2022-03-09 04:57:02.635 CST [10135] ERROR:  column ingredients.ingredient_id does not exist at character 52
+2022-03-09 04:57:02.635 CST [10135] STATEMENT:  SELECT "ingredients"."id" FROM "ingredients" WHERE "ingredients"."ingredient_id" = $1
+2022-03-10 12:30:18.318 CST [4668] LOG:  received smart shutdown request
+2022-03-10 12:30:18.421 CST [4668] LOG:  background worker "logical replication launcher" (PID 4710) exited with exit code 1
+2022-03-10 12:30:18.421 CST [4705] LOG:  shutting down
+2022-03-10 12:30:18.598 CST [4668] LOG:  database system is shut down
+2022-03-10 14:41:34.130 CST [4420] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-10 14:41:34.238 CST [4420] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-10 14:41:34.238 CST [4420] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-10 14:41:34.495 CST [4420] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-10 14:41:39.783 CST [4449] LOG:  database system was shut down at 2022-03-10 12:30:18 CST
+2022-03-10 14:41:40.955 CST [4420] LOG:  database system is ready to accept connections
+2022-03-11 00:12:22.593 CST [4488] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-11 00:12:22.868 CST [4488] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-11 00:12:22.868 CST [4488] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-11 00:12:23.090 CST [4488] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-11 00:12:25.127 CST [4491] LOG:  database system was interrupted; last known up at 2022-03-10 14:46:41 CST
+2022-03-11 00:12:29.578 CST [4491] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-11 00:12:29.693 CST [4491] LOG:  redo starts at 0/100AF9A0
+2022-03-11 00:12:29.693 CST [4491] LOG:  invalid record length at 0/100AFA88: wanted 24, got 0
+2022-03-11 00:12:29.693 CST [4491] LOG:  redo done at 0/100AFA50
+2022-03-11 00:12:30.087 CST [4488] LOG:  database system is ready to accept connections
+2022-03-11 05:13:27.958 CST [4497] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-11 05:23:28.379 CST [4497] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-11 16:13:26.824 CST [4491] FATAL:  lock file "postmaster.pid" already exists
+2022-03-11 16:13:26.824 CST [4491] HINT:  Is another postmaster (PID 4488) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-11 16:14:25.393 CST [4531] FATAL:  lock file "postmaster.pid" already exists
+2022-03-11 16:14:25.393 CST [4531] HINT:  Is another postmaster (PID 4488) running in data directory "/usr/local/var/postgres_dev"?
+2022-03-11 16:16:06.169 CST [4615] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-11 16:16:06.995 CST [4615] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-11 16:16:06.995 CST [4615] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-11 16:16:07.420 CST [4615] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-11 16:16:11.534 CST [4621] LOG:  database system was interrupted; last known up at 2022-03-11 00:12:30 CST
+2022-03-11 16:16:19.132 CST [4621] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-11 16:16:19.854 CST [4621] LOG:  redo starts at 0/100AFB00
+2022-03-11 16:16:20.071 CST [4621] LOG:  invalid record length at 0/100AFB38: wanted 24, got 0
+2022-03-11 16:16:20.071 CST [4621] LOG:  redo done at 0/100AFB00
+2022-03-11 16:16:21.527 CST [4615] LOG:  database system is ready to accept connections
+2022-03-11 20:44:47.954 CST [4629] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-03-11 23:37:26.510 CST [4999] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-11 23:37:26.941 CST [4999] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-11 23:37:26.941 CST [4999] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-11 23:37:27.184 CST [4999] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-11 23:37:29.681 CST [5004] LOG:  database system was interrupted; last known up at 2022-03-11 19:41:22 CST
+2022-03-11 23:37:36.761 CST [5004] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-11 23:37:37.154 CST [5004] LOG:  redo starts at 0/1018CC60
+2022-03-11 23:37:37.154 CST [5004] LOG:  invalid record length at 0/1018CD48: wanted 24, got 0
+2022-03-11 23:37:37.155 CST [5004] LOG:  redo done at 0/1018CD10
+2022-03-11 23:37:38.006 CST [4999] LOG:  database system is ready to accept connections
