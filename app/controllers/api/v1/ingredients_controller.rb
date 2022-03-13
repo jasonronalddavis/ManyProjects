@@ -53,8 +53,19 @@ class Api::V1::IngredientsController < ApplicationController
 
 
     def update
+   
+        categories = Category.all
         ingredient = Ingredient.find_by_id(params[:id])
-        ingredient.update(ingredient_params)
+        removeCat = params[:removeCat] != "" ? params[:removeCat] : []
+        addCat =  params[:addCat] != "" ? params[:addCat] : []
+       name = params[:name] != "" ? ingredient.name = params[:name] : ingredient.name
+       description = params[:description] != "" ? ingredient.description = params[:description] : ingredient.description
+       price = params[:price] != "" ? ingredient.price = params[:price] : ingredient.price
+      imageUrl = params[:imageUrl] != "" ? ingredient.image_url = params[:imageUrl] : ingredient.image_url
+       ingredient.update({name: name, description: description, price: price, image_url: imageUrl})
+        removeCategories(ingredient,removeCat,categories)
+    
+        addCategories(ingredient,addCat,categories)
         render json: ingredient
     end
     
@@ -62,6 +73,30 @@ class Api::V1::IngredientsController < ApplicationController
 
 
     private
+
+
+    def removeCategories(ingredient,removeCat,categories)   
+        ingredient.categories.select{|ic| 
+        categories.all.each{|i| 
+        removeCat.each{|rc| 
+         if  ic.name == rc
+         ingredient.categories.delete(ic)  
+        end   
+                 }
+                }
+            }
+    end
+
+    def addCategories(ingredient,addCat,categories)
+        categories.all.each{|c| 
+        addCat.each{|ac| 
+        if c.name == ac
+            ingredient.categories << c
+             end
+            }
+                }
+         end
+
     
         def ingredient_params 
         params.require(:ingredient).permit(:id, :name, :description, :image_url, :url, :price, :category_ids, :project_ids)

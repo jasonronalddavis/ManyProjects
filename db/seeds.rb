@@ -36,7 +36,7 @@ Project.destroy_all
 
 art = Category.create(name: "Art", image_url: "assets/images/PaintPallete.png")
 
-mechanical = Category.create(name: "Mechanics", image_url: "assets/images/mechanics.png")
+mechanics = Category.create(name: "Mechanics")
 
 software = Category.create(name: "Software", image_url: "assets/images/software.png")
 

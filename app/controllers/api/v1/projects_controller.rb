@@ -77,7 +77,7 @@ def removeIngredients(project,removeIng,ingredients)
     ingredients.all.each{|i| 
     removeIng.each{|ri| 
      if  pi.name == ri
-        pi.delete  
+        project.ingredients.delete(pi) 
     end   
              }
             }
@@ -99,7 +99,7 @@ def addIngredients(project,addIng,ingredients)
         categories.all.each{|i| 
         removeCat.each{|rc| 
          if  pc.name == rc
-            pc.delete  
+            project.categories.delete(pc) 
         end   
                  }
                 }

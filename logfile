@@ -952,3 +952,23 @@
 2022-03-11 23:37:37.154 CST [5004] LOG:  invalid record length at 0/1018CD48: wanted 24, got 0
 2022-03-11 23:37:37.155 CST [5004] LOG:  redo done at 0/1018CD10
 2022-03-11 23:37:38.006 CST [4999] LOG:  database system is ready to accept connections
+2022-03-12 14:36:32.268 CST [4620] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-12 14:36:34.221 CST [4620] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-12 14:36:34.221 CST [4620] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-12 14:36:34.969 CST [4620] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-12 14:36:43.172 CST [4631] LOG:  database system was interrupted; last known up at 2022-03-11 23:37:37 CST
+2022-03-12 14:37:01.094 CST [4631] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-12 14:37:03.091 CST [4631] LOG:  redo starts at 0/1018CDC0
+2022-03-12 14:37:03.552 CST [4631] LOG:  invalid record length at 0/1018CDF8: wanted 24, got 0
+2022-03-12 14:37:03.553 CST [4631] LOG:  redo done at 0/1018CDC0
+2022-03-12 14:37:07.065 CST [4620] LOG:  database system is ready to accept connections
+2022-03-12 23:12:38.817 CST [3407] LOG:  starting PostgreSQL 13.5 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2022-03-12 23:12:39.109 CST [3407] LOG:  listening on IPv6 address "::1", port 5432
+2022-03-12 23:12:39.109 CST [3407] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-12 23:12:39.204 CST [3407] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-12 23:12:40.766 CST [3410] LOG:  database system was interrupted; last known up at 2022-03-12 18:32:07 CST
+2022-03-12 23:12:44.016 CST [3410] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-12 23:12:44.150 CST [3410] LOG:  redo starts at 0/101D01C0
+2022-03-12 23:12:44.150 CST [3410] LOG:  invalid record length at 0/101D02A8: wanted 24, got 0
+2022-03-12 23:12:44.151 CST [3410] LOG:  redo done at 0/101D0270
+2022-03-12 23:12:44.525 CST [3407] LOG:  database system is ready to accept connections
